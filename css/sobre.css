@@ -1,0 +1,22 @@
+.sobre {
+    padding: 2rem 5rem 3.5rem 5rem;
+    text-align: center;
+    line-height: normal;
+}
+
+.sobre__titulo {
+    margin: 2rem 0;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.sobre__descricao {
+    font-family: inherit, "Segoe UI";
+    font-size: 1.1rem;
+}
+
+@media screen and (max-width: 480px) {
+    .sobre {
+        padding: 2rem 2rem 3.5rem 2rem;
+    }
+}

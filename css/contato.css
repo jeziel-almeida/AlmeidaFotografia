@@ -1,0 +1,42 @@
+.contato {
+    padding: 3.5rem 0 7rem 0;
+    text-align: center;
+    border-top: 1px solid #094247;
+}
+
+.contato__titulo {
+    margin: 2rem 0 4rem 0;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.contato__social {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contato__social-imagem {
+    margin-bottom: 1rem;
+}
+
+.contato__social-paragrafo--wp {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #32d94f;
+}
+
+.contato__social-paragrafo--mail {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #f84437;
+}
+
+@media screen and (max-width: 425px) {
+    .contato__social {
+        flex-direction: column;
+    }
+
+    .contato__social-paragrafo--wp {
+        margin-bottom: 2rem;
+    }
+}
