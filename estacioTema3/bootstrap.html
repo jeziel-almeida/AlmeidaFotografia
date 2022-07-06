@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+    <style>
+        .header {
+            background-color: yellow;
+            height: 100px;
+        }
+
+        .main {
+            height: 400px;
+        }
+
+        .coluna_1 {
+            background-color: pink;
+        }
+
+        .coluna_2 {
+            background-color: gray;
+        }
+
+        .coluna_3 {
+            background-color: pink;
+        }
+
+        .footer {
+            background-color: yellow;
+            height: 100px;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <div class="container">
+        <div class="row">
+            <header class="col-12 text-center header">
+                CABEÇALHO
+            </header>
+        </div>
+
+        <div class="row main">
+            <div class="col-2 coluna_1 text-center">
+                COLUNA 1
+            </div>
+            <div class="col-8 coluna_2 text-center">
+                COLUNA 2
+            </div>
+            <div class="col-2 coluna_3 text-center">
+                COLUNA 3
+            </div>
+        </div>
+
+        <div class="row">
+            <footer class="col-10 text-center footer">
+                FOOTER
+            </footer>
+        </div>
+    </div>
+    
+</body>
+</html>
